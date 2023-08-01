@@ -22,7 +22,8 @@ defmodule Helpdesk.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ash, "~> 2.13.2"}
+      {:ash, "~> 2.13.2"},
+      {:ash_postgres, "~> 1.3.6"}
     ]
   end
 end
